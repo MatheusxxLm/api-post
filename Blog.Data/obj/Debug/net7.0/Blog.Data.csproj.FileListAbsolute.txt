@@ -1,0 +1,17 @@
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\obj\Debug\net7.0\Blog.Data.csproj.AssemblyReference.cache
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\obj\Debug\net7.0\Blog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\obj\Debug\net7.0\Blog.Data.AssemblyInfoInputs.cache
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\obj\Debug\net7.0\Blog.Data.AssemblyInfo.cs
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\obj\Debug\net7.0\Blog.Data.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\bin\Debug\net7.0\Blog.Data.deps.json
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\bin\Debug\net7.0\Blog.Data.runtimeconfig.json
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\bin\Debug\net7.0\Blog.Data.dll
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\bin\Debug\net7.0\Blog.Data.pdb
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\bin\Debug\net7.0\Blog.Business.dll
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\bin\Debug\net7.0\Blog.Business.pdb
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\obj\Debug\net7.0\Blog.Data.csproj.CopyComplete
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\obj\Debug\net7.0\Blog.Data.dll
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\obj\Debug\net7.0\refint\Blog.Data.dll
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\obj\Debug\net7.0\Blog.Data.pdb
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\obj\Debug\net7.0\Blog.Data.genruntimeconfig.cache
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Data\obj\Debug\net7.0\ref\Blog.Data.dll

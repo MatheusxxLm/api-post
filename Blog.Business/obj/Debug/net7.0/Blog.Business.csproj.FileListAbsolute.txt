@@ -1,0 +1,14 @@
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\bin\Debug\net7.0\Blog.Business.deps.json
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\bin\Debug\net7.0\Blog.Business.runtimeconfig.json
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\bin\Debug\net7.0\Blog.Business.dll
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\bin\Debug\net7.0\Blog.Business.pdb
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\obj\Debug\net7.0\Blog.Business.csproj.AssemblyReference.cache
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\obj\Debug\net7.0\Blog.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\obj\Debug\net7.0\Blog.Business.AssemblyInfoInputs.cache
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\obj\Debug\net7.0\Blog.Business.AssemblyInfo.cs
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\obj\Debug\net7.0\Blog.Business.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\obj\Debug\net7.0\Blog.Business.dll
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\obj\Debug\net7.0\refint\Blog.Business.dll
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\obj\Debug\net7.0\Blog.Business.pdb
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\obj\Debug\net7.0\Blog.Business.genruntimeconfig.cache
+C:\Users\Matheus\Desktop\Projetos\Blog\Blog.Business\obj\Debug\net7.0\ref\Blog.Business.dll
