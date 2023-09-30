@@ -29,8 +29,30 @@ namespace Blog.API.Controllers
             try
             {
                 var createdPost = await _postService.Create(post);
-                var serializedObject = JsonConvert.SerializeObject(createdPost);
-                return CreatedAtAction(nameof(GetById), new { id = createdPost.Id }, serializedObject);
+                if (createdPost == null)
+                {
+                    var errorResponse = new { error = "Não foi possível criar o Post" };
+                    var serializedError = JsonConvert.SerializeObject(errorResponse);
+                    return BadRequest(serializedError);
+                }
+
+                // Converta o ID do post em uma string para usá-lo como chave de cache
+                string cacheKey = createdPost.Id.ToString();
+
+                // Serializa o objeto post criado em JSON para armazenar no cache
+                var serializedPost = JsonConvert.SerializeObject(createdPost);
+
+                // Define opções para o cache, como a expiração
+                var cacheOptions = new DistributedCacheEntryOptions
+                {
+                    AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10) // Expira em 10 minutos
+                };
+
+                // Armazena o objeto post no cache com a chave correspondente ao ID do post
+                await _cache.SetStringAsync(cacheKey, serializedPost, cacheOptions);
+
+                // Retorna a resposta com o objeto post criado
+                return CreatedAtAction(nameof(GetById), new { id = createdPost.Id }, serializedPost);
             }
             catch (Exception ex)
             {
@@ -39,6 +61,7 @@ namespace Blog.API.Controllers
                 return BadRequest(serializedError);
             }
         }
+
         [AllowAnonymous]
         [HttpPut("Update")]
         public async Task<ActionResult<string>> Update(Post post)
@@ -71,6 +94,12 @@ namespace Blog.API.Controllers
                 }
                 var successResponse = new { message = "Post Excluido" };
                 var serializedSuccess = JsonConvert.SerializeObject(successResponse);
+
+                // Converta o ID do post em uma string para usá-lo como chave de cache
+                string cacheKey = post.ToString();
+
+                // Remova o item correspondente ao post do cache
+                await _cache.RemoveAsync(cacheKey);
                 return Ok(serializedSuccess);
             }
             catch
