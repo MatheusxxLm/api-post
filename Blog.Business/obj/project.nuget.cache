@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "s+lSbTT97bG1zYpVVPX+0lhQNcyYwf074d/NAj2b4WgZKyEWjj5LpHphndGFome1tV+z2QGxPMvcc8Gk4g9UlQ==",
+  "dgSpecHash": "+J6jZ5EKhW4NFTa6nk8WgVAOx5zqiPs0GXlqbN+luFsRZAEhHbrYDb+ZgT3ROU3BG1DAqzV9rQgXqPMdb4n0gw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matheus\\Desktop\\Projetos\\Blog\\Blog.Business\\Blog.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matheus\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.12\\microsoft.aspnetcore.authentication.jwtbearer.7.0.12.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",
