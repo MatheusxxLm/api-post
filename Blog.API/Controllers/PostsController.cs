@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace Blog.API.Controllers
 {
-    [AllowAnonymous]
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class PostsController : Controller
@@ -22,7 +22,6 @@ namespace Blog.API.Controllers
 
         }
 
-        [AllowAnonymous]
         [HttpPost("Create")]
         public async Task<ActionResult<string>> CreatePost(Post post)
         {
@@ -62,7 +61,6 @@ namespace Blog.API.Controllers
             }
         }
 
-        [AllowAnonymous]
         [HttpPut("Update")]
         public async Task<ActionResult<string>> Update(Post post)
         {
@@ -79,7 +77,7 @@ namespace Blog.API.Controllers
                 return BadRequest(serializedError);
             }
         }
-        [AllowAnonymous]
+
         [HttpDelete("Delete")]
         public async Task<ActionResult<string>> Delete(int post)
         {
@@ -109,14 +107,7 @@ namespace Blog.API.Controllers
                 return BadRequest(serializedError);
             }
         }
-        //[AllowAnonymous]
-        //[HttpGet("GetAllPosts")]
-        //public async Task<ActionResult<string>> GetAllPosts()
-        //{
-        //    var pegar = await _postService.GetAll();
-        //    var serializedObject = JsonConvert.SerializeObject(pegar);
-        //    return Ok(serializedObject);
-        //}
+
         [HttpGet("GetAllPosts")]
         public async Task<ActionResult<string>> GetAllPosts()
         {
@@ -152,7 +143,7 @@ namespace Blog.API.Controllers
                 return Ok(serializedData);
             }
         }
-        [AllowAnonymous]
+
         [HttpGet("GetById")]
         public async Task<ActionResult<string>> GetById(int id)
         {

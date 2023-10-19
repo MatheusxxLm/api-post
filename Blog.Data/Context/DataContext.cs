@@ -15,6 +15,7 @@ namespace Blog.Data.Context
             
         }
         public DbSet<Post> Posts { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             foreach (var post in modelBuilder.Model.GetEntityTypes().SelectMany(x => x.GetForeignKeys())) post.DeleteBehavior = DeleteBehavior.ClientSetNull;
